@@ -1,0 +1,14 @@
+Key ideas:
+
+-two pointer trick
+    -to find the middile of the list
+    -to get the the nth node from the end of the list
+    -floyd
+        -to check if there is a crycle
+        -to find the first point of the cyrcle
+
+-when we want something that can remove and add thing in O(1) we need to think to Double likned list
+
+-maybe some array can be seen as a linked list
+
+-recursion our best friend forevar
