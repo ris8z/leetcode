@@ -1,0 +1,22 @@
+
+
+bs
+    -classica (con return or update di variable result nel while loop)
+    
+    -puntatori che si muovono e si incontrano (return fuori dal while loop)
+        -left  bisect (arrotondi a sinistra il mid)
+           #ti da il leftmost  number
+           #left si muove quindi se il target non c'e' si ferma al primo numero piu grande di target
+           #utile in find il minimo ex: (koko e le banane)
+
+        -right bisect (arrotondi a destra   il mid)
+           #ti da il rightmost number
+           #right si muove quindi se il target non c'e' si ferma all ultimo numbero piu piccolo di target
+           #utile in Trova il risulato minore o uguale ex: (Time stamp)
+
+    -in generale devi saper modificare l'algo on the fly per il problema
+    -ricorda che alla fine si basa semplicemente su degli intervalli, qundi se hai un certezza di sort
+    -un modo per implementarlo si trova
+
+
+
