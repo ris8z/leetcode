@@ -9,7 +9,9 @@ class Solution:
         #tipo koko e le banane
         #oppure quando non riusciamo a definire bene una condizione specifica
         #per cui la nostra guess e uguale alla query
-        def fun1(a, q):
+
+        def fun1(a, q):#left bisect infatti il simbolo punta a sinistra guess < target
+           
             #we just wanto to choose a number by make the two pointer equals and
             #then check if left is the index of the target
             #IMPORTANT if u have something like [1,2,2,2,2,3,4,5,6]
@@ -30,7 +32,8 @@ class Solution:
             return -1
         return fun1(nums, target)
         
-        def fun1_1(a, q):
+        def fun1_1(a, q):#right bisect infatti il simbolo punta  destra guess > target
+            
             #per riprendere il discorso del fatto che non finisci in un loop infinito
             #se inverti il ragionamento a roundi sempre up
 
